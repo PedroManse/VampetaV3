@@ -1,16 +1,14 @@
 {
 	"manifest_version": 2,
-	"name": "nVampeta",
-	"version": "1.4",
+	"name": "Vamp2",
+	"version": "1.0",
 	"description": "Troque todas as imagens do site por fotos do Vampeta.",
-	"icons": {
-    	"48": "icon48.png",
-        "128": "icon128.png"
-    },
+	"icons": { "48": "icon48.png", "128": "icon128.png" },
 	"content_scripts": [
-	    {
-	      "matches": ["*://*/*"],
-	      "js": ["jquery.js", "nVampeta.js"]
-	    }
-  	]
+		{
+			"matches": ["*://*/*"],
+			"js": ["vamp.js"]
+		}
+	]
 }
+
