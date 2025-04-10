@@ -9,6 +9,11 @@
 			"matches": ["*://*/*"],
 			"js": ["vamp.js"]
 		}
-	]
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "vamp@manse.dev.br"
+		}
+	}
 }
 
