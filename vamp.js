@@ -45,4 +45,4 @@ setInterval(()=>{
 		img.setAttribute("src", imgsrc);
 	})
 
-}, 1000);
+}, 10000000);

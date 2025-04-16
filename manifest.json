@@ -10,6 +10,11 @@
 			"js": ["vamp.js"]
 		}
 	],
+  "browser_action": {
+    "default_icon": "icons/48.png",
+    "default_title": "Vampetinha",
+    "default_popup": "html/index.html"
+  },
 	"browser_specific_settings": {
 		"gecko": {
 			"id": "vamp@manse.dev.br"
